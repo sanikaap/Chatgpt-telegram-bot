@@ -2,10 +2,10 @@ import os
 import openai
 from aiogram import Bot, Dispatcher, executor , types
 
-bot = Bot(token ="6225470956:AAHQCvLFgnBeQNLLWv-ZZzCw5IsHZFIWFIA")
+bot = Bot(token ="")
 dp = Dispatcher(bot)
 
-openai.api_key ="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"
+openai.api_key =""
 
 @dp.message_handler(commands = ['start','help'])
 async def welcome(message:types.Message):
